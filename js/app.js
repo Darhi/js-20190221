@@ -1,3 +1,3 @@
-import {PhonesPage} from "./js/components/PhonesPage.js"
+import {PhonesPage} from "/components/PhonesPage.js"
 
 new PhonesPage(document.querySelector('[data-component="PhonesPage"]'));
