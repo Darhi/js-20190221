@@ -2,7 +2,7 @@
 
 body {
   padding-top: 20px;
-  background-color: lightgoldenrodyellow;
+  background-color: #D3F2F8;
 }
 
 .phone-images {
@@ -32,6 +32,24 @@ body {
   height: 100%;
   display: flex;
   margin: 0 1em;
+}
+
+.btn-remove {
+  display: inline-block;
+  background-color: transparent;
+  color: red;
+  box-shadow: none;
+  border: none;
+}
+
+.btn-ocean {
+  background-color: #3EC5D5;
+  color: white;
+  border-color: #197177;
+}
+
+.btn-ocean:hover {
+  color: #197177;
 }
 
 .phones li {
