@@ -10,8 +10,7 @@ export default class Filter extends Component {
       if (event.keyCode === 13) {
         const search = event.target.value;
         let phones;
-        console.log(this.props.query);
-        if (this.props.query.length) {          
+        if (this.props.query.length) {
           phones = this.props.query;
         }
         else phones = this.props.phones;

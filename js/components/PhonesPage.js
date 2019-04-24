@@ -61,7 +61,6 @@ export default class PhonesPage extends Component {
 
   sortPhones (arr, order) {
     const newPhonesOrder = this.sort(arr, order);
-    console.log(newPhonesOrder);
     this.optimization = false;
 
     this.setState({
