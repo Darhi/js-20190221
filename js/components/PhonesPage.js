@@ -100,7 +100,6 @@ export default class PhonesPage extends Component {
   searchPhones(phones) {
     if (this.state.query.length === 0) {
      this.state.query = [...this.state.phones];
-     console.log('query:' + this.state.query);
     }
     
     this.setState({ phones });

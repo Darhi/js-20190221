@@ -45,7 +45,6 @@ export default class Component {
     const current = this.components[componentName];
 
     if (!current || !_.isEqual(current.props, props) || !this.optimization) {
-      console.log('optimizaion: ' + this.optimization);
       this.components[componentName] = new Constructor(element, props);
       this.optimization = true;
     } else {
